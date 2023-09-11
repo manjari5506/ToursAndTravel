@@ -98,36 +98,36 @@ export const Footer = () => {
             <h5 className="footer__links-title">Contact</h5>
 
             <ListGroup className="footer__quick-links">
-              
-                <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-3">
-                  <h6 className="mb-0 d-flex align-items-center gap-2">
-                    <span>
-                      <i className="ri-map-pin-fill"></i>
-                    </span>
-                    Address:
-                  </h6>
-                  <p className="mb-0">Jhansi</p>
-                </ListGroupItem>
 
-                <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-3">
-                  <h6 className="mb-0 d-flex align-items-center gap-2">
-                    <span>
-                      <i className="ri-mail-fill"></i>
-                    </span>
-                    Email:
-                  </h6>
-                  <p className="mb-0">raikwar.manjari@gmail.com</p>
-                </ListGroupItem>
+              <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-3">
+                <h6 className="mb-0 d-flex align-items-center gap-2">
+                  <span>
+                    <i className="ri-map-pin-fill"></i>
+                  </span>
+                  Address:
+                </h6>
+                <p className="mb-0">Jhansi</p>
+              </ListGroupItem>
 
-                <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-3">
-                  <h6 className="mb-0 d-flex align-items-center gap-2">
-                    <span>
-                      <i className="ri-phone-fill"></i>
-                    </span>
-                    Phone:
-                  </h6>
-                  <p className="mb-0">+91 7905384169</p>
-                </ListGroupItem>
+              <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-3">
+                <h6 className="mb-0 d-flex align-items-center gap-2">
+                  <span>
+                    <i className="ri-mail-fill"></i>
+                  </span>
+                  Email:
+                </h6>
+                <p className="mb-0">raikwar.manjari@gmail.com</p>
+              </ListGroupItem>
+
+              <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-3">
+                <h6 className="mb-0 d-flex align-items-center gap-2">
+                  <span>
+                    <i className="ri-phone-fill"></i>
+                  </span>
+                  Phone:
+                </h6>
+                <p className="mb-0">+91 7905384169</p>
+              </ListGroupItem>
             </ListGroup>
           </Col>
 
