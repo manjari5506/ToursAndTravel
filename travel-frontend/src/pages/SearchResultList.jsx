@@ -4,6 +4,7 @@ import { Container, Row, Col } from "reactstrap";
 import { useLocation } from "react-router-dom";
 import { TourCard } from "../shared/TourCard";
 import { Newsletter } from "../shared/Newsletter";
+import { TEXT } from "../utils/text";
 
 export const SearchResultList = () => {
   const location = useLocation();
@@ -17,7 +18,7 @@ export const SearchResultList = () => {
           <Container>
             <Row>
             {data?.length === 0 ? (
-                <h4 className="text-center"> No tour found </h4>
+                <h4 className="text-center"> {TEXT.NO_TOUR_FOUND} </h4>
               ) : (
                 data?.map((tour) => (
                   <Col lg="3" className="mb-4" key={tour._id}>

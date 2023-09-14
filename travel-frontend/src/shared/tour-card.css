@@ -12,6 +12,10 @@
     position: relative;
 }
 
+.tour__img img {
+    height: 30vh;
+}
+
 .tour__img span {
     position: absolute;
     bottom: 0;

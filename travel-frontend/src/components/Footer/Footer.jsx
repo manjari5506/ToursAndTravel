@@ -3,6 +3,7 @@ import "./footer.css";
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo.png";
+import { TEXT } from "../../utils/text";
 
 const quick__links = [
   {
@@ -44,27 +45,27 @@ export const Footer = () => {
         <Row>
           <Col lg="3">
             <div className="logo">
-              <img src={logo} alt="" />
-              <p>Lorem ipsum, dolor sit am consectetur op edit.</p>
+              <Link to='/'><img src={logo} alt="" /></Link>
+              <p>{TEXT.FOOTER_PARA}.</p>
 
               <div className="social__links d-flex align-items-center gap-4">
                 <span>
-                  <Link target="_blank" to="#">
+                  <Link target="_blank" to="https://www.linkedin.com/in/rajat-sahu-102791147/">
                     <i class="ri-linkedin-fill"></i>
                   </Link>
                 </span>
                 <span>
-                  <Link target="_blank" to="#">
+                  <Link target="_blank" to="https://github.com/rajatsahu18">
                     <i class="ri-github-fill"></i>
                   </Link>
                 </span>
                 <span>
-                  <Link target="_blank" to="#">
+                  <Link target="_blank" to="https://twitter.com/im_rajat18">
                     <i class="ri-twitter-fill"></i>
                   </Link>
                 </span>
                 <span>
-                  <Link target="_blank" to="#">
+                  <Link target="_blank" to="https://medium.com/@sahurajat78">
                     <i class="ri-medium-fill"></i>
                   </Link>
                 </span>
@@ -73,7 +74,7 @@ export const Footer = () => {
           </Col>
 
           <Col lg="3">
-            <h5 className="footer__links-title">Discover</h5>
+            <h5 className="footer__links-title">{TEXT.DISCOVER}</h5>
 
             <ListGroup>
               {quick__links?.map((item, index) => (
@@ -84,7 +85,7 @@ export const Footer = () => {
             </ListGroup>
           </Col>
           <Col lg="3">
-            <h5 className="footer__links-title">Quick Links</h5>
+            <h5 className="footer__links-title">{TEXT.QUICK_LINKS}</h5>
 
             <ListGroup>
               {quick__links2?.map((item, index) => (
@@ -95,44 +96,44 @@ export const Footer = () => {
             </ListGroup>
           </Col>
           <Col lg="3">
-            <h5 className="footer__links-title">Contact</h5>
+            <h5 className="footer__links-title">{TEXT.CONTACT}</h5>
 
             <ListGroup className="footer__quick-links">
+              
+                <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-3">
+                  <h6 className="mb-0 d-flex align-items-center gap-2">
+                    <span>
+                      <i className="ri-map-pin-fill"></i>
+                    </span>
+                    {TEXT.ADDRESS}
+                  </h6>
+                  <p className="mb-0">{TEXT.CONTACT_CITY}</p>
+                </ListGroupItem>
 
-              <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-3">
-                <h6 className="mb-0 d-flex align-items-center gap-2">
-                  <span>
-                    <i className="ri-map-pin-fill"></i>
-                  </span>
-                  Address:
-                </h6>
-                <p className="mb-0">Jhansi</p>
-              </ListGroupItem>
+                <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-3">
+                  <h6 className="mb-0 d-flex align-items-center gap-2">
+                    <span>
+                      <i className="ri-mail-fill"></i>
+                    </span>
+                    {TEXT.EMAIL}
+                  </h6>
+                  <p className="mb-0">{TEXT.EMAIL_ADDRESS}</p>
+                </ListGroupItem>
 
-              <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-3">
-                <h6 className="mb-0 d-flex align-items-center gap-2">
-                  <span>
-                    <i className="ri-mail-fill"></i>
-                  </span>
-                  Email:
-                </h6>
-                <p className="mb-0">raikwar.manjari@gmail.com</p>
-              </ListGroupItem>
-
-              <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-3">
-                <h6 className="mb-0 d-flex align-items-center gap-2">
-                  <span>
-                    <i className="ri-phone-fill"></i>
-                  </span>
-                  Phone:
-                </h6>
-                <p className="mb-0">+91 7905384169</p>
-              </ListGroupItem>
+                <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-3">
+                  <h6 className="mb-0 d-flex align-items-center gap-2">
+                    <span>
+                      <i className="ri-phone-fill"></i>
+                    </span>
+                    {TEXT.PHONE}
+                  </h6>
+                  <p className="mb-0">{TEXT.PHONE_NUMBER}</p>
+                </ListGroupItem>
             </ListGroup>
           </Col>
 
           <Col lg='12' className="text-center pt-5">
-            <p className="love">Made with <i className="ri-heart-fill"></i> in {year}</p>
+            <p className="love">{TEXT.MADE_WITH} <i className="ri-heart-fill"></i> {TEXT.IN} {year}</p>
           </Col>
         </Row>
       </Container>

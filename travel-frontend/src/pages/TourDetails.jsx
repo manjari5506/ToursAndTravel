@@ -10,6 +10,7 @@ import { Newsletter } from "../shared/Newsletter";
 import { useFetch } from "../hooks/useFetch";
 import { BASE_URL } from "../utils/config";
 import { AuthContext } from "../context/AuthContext";
+import { TEXT } from "../utils/text";
 
 export const TourDetails = () => {
   const {id}  = useParams();
@@ -123,22 +124,21 @@ export const TourDetails = () => {
                       </span>
 
                       <span>
-                        <i class="ri-money-dollar-circle-line"></i> {price} /per
-                        person
+                        <i class="ri-money-dollar-circle-line"></i> {price} {TEXT.PER_PERSON}
                       </span>
                       <span>
-                        <i class="ri-map-pin-2-line"></i> {distance} km/hr
+                        <i class="ri-map-pin-2-line"></i> {distance} {TEXT.KM}
                       </span>
                       <span>
-                        <i class="ri-group-line"></i> {maxGroupSize} people
+                        <i class="ri-group-line"></i> {maxGroupSize} {TEXT.PEOPLE}
                       </span>
                     </div>
-                    <h5>Description</h5>
+                    <h5>{TEXT.DESCRIPTION}</h5>
                     <p>{desc}</p>
                   </div>
 
                   <div className="tour__reviews mt-4">
-                    <h4>Reviews ({reviews?.length} reviews)</h4>
+                    <h4>{TEXT.CAPITAL_REVIEW} ({reviews?.length} {TEXT.SMALL_REVIEW})</h4>
 
                     <Form onSubmit={submitHandler}>
                       <div classMyName="d-flex align-items-center gap-3 mb-4 rating__group">
@@ -170,7 +170,7 @@ export const TourDetails = () => {
                           className="btn primary__btn text-white"
                           type="submit"
                         >
-                          Submit
+                          {TEXT.SUBMIT}
                         </button>
                       </div>
                     </Form>

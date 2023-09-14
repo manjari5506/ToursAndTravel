@@ -2,6 +2,7 @@ import React from 'react'
 import { Container, Row, Col, Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import '../styles/thank-you.css'
+import { TEXT } from '../utils/text';
 
 export const Thankyou = () => {
   return (
@@ -13,11 +14,11 @@ export const Thankyou = () => {
                         <span>
                             <i class='ri-checkbox-circle-line'></i>
                         </span>
-                        <h1 className='mb-3 fw-semibold'>Thank you</h1>
-                        <h3 className='mb-4'>your tour is booked</h3>
+                        <h1 className='mb-3 fw-semibold'>{TEXT.THANK_YOU}</h1>
+                        <h3 className='mb-4'>{TEXT.BOOKED}</h3>
 
                         <Button className='btn primary__btn w-25'>
-                            <Link to='/home'>Back to home</Link>
+                            <Link to='/home'>{TEXT.BACK_TO_HOME}</Link>
                         </Button>
                     </div>
                 </Col>

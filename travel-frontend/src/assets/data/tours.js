@@ -1,21 +1,10 @@
-import tourImg01 from "../images/tour-img01.jpg";
-import tourImg02 from "../images/tour-img02.jpg";
-import tourImg03 from "../images/tour-img03.jpg";
-import tourImg04 from "../images/tour-img04.jpg";
-import tourImg05 from "../images/tour-img05.jpg";
-import tourImg06 from "../images/tour-img06.jpg";
-import tourImg07 from "../images/tour-img07.jpg";
-
 const tours = [
   {
-    id: "01",
-    title: "Westminister Bridge",
-    city: "London",
-    distance: 300,
-    address: 'Somewhere',
-    price: 99,
-    maxGroupSize: 10,
-    desc: "this is the description",
+    "title": "Machu Picchu",
+    "city": "Cusco",
+    "address": "Somewhere in Peru",
+    "distance": 300,
+    "price": 99,
     reviews: [
       {
         name: "jhon doe",
@@ -23,34 +12,17 @@ const tours = [
       },
     ],
     avgRating: 4.5,
-    photo: tourImg01,
-    featured: true,
+    "maxGroupSize": 10,
+    "desc": "this is the description",
+    "photo": "https://images.unsplash.com/photo-1526392060635-9d6019884377?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+    "featured": true
   },
   {
-    id: "02",
-    title: "Bali, Indonesia",
-    city: "Indonesia",
-    distance: 400,
-    address: 'Somewhere',
-    price: 99,
-    maxGroupSize: 8,
-    desc: "this is the description",
-    reviews: [
-      
-    ],
-    avgRating: 4.5,
-    photo: tourImg02,
-    featured: true,
-  },
-  {
-    id: "03",
-    title: "Snowy Mountains, Thailand",
-    city: "Thailand",
-    distance: 500,
-    price: 99,
-    address: 'Somewhere',
-    maxGroupSize: 8,
-    desc: "this is the description",
+    "title": "Cappadocia, Turkey",
+    "city": "Nevsehir",
+    "address": "Somewhere in Turkey",
+    "distance": 500,
+    "price": 99,
     reviews: [
       {
         name: "jhon doe",
@@ -58,18 +30,17 @@ const tours = [
       },
     ],
     avgRating: 4.5,
-    photo: tourImg03,
-    featured: true,
+    "maxGroupSize": 8,
+    "desc": "this is the description",
+    "photo": "https://images.unsplash.com/photo-1569530593440-e48dc137f7d0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
+    "featured": true
   },
   {
-    id: "04",
-    title: "Beautiful Sunrise, Thailand",
-    city: "Thailand",
-    distance: 500,
-    address: 'Somewhere',
-    price: 99,
-    maxGroupSize: 8,
-    desc: "this is the description",
+    "title": "The Great Wall of China",
+    "city": "Liaoning",
+    "address": "Somewhere in China",
+    "distance": 400,
+    "price": 99,
     reviews: [
       {
         name: "jhon doe",
@@ -77,18 +48,17 @@ const tours = [
       },
     ],
     avgRating: 4.5,
-    photo: tourImg04,
-    featured: true,
+    "maxGroupSize": 8,
+    "desc": "this is the description",
+    "photo": "https://plus.unsplash.com/premium_photo-1664304488525-44a96338c0cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2075&q=80",
+    "featured": true
   },
   {
-    id: "05",
-    title: "Nusa Pendia Bali, Indonesia",
-    city: "Indonesia",
-    distance: 500,
-    address: 'Somewhere',
-    price: 99,
-    maxGroupSize: 8,
-    desc: "this is the description",
+    "title": "Santorini, Greece",
+    "city": "Oia",
+    "address": "Somewhere in Greece",
+    "distance": 500,
+    "price": 99,
     reviews: [
       {
         name: "jhon doe",
@@ -96,18 +66,17 @@ const tours = [
       },
     ],
     avgRating: 4.5,
-    photo: tourImg05,
-    featured: false,
+    "maxGroupSize": 8,
+    "desc": "this is the description",
+    "photo": "https://images.unsplash.com/photo-1548580392-8d9c772d854e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
+    "featured": true
   },
   {
-    id: "06",
-    title: "Cherry Blossoms Spring",
-    city: "Japan",
-    distance: 500,
-    address: 'Somewhere',
-    price: 99,
-    maxGroupSize: 8,
-    desc: "this is the description",
+    "title": "The Grand Canyon, USA,",
+    "city": "Las Vegas",
+    "address": "Somewhere in USA",
+    "distance": 500,
+    "price": 99,
     reviews: [
       {
         name: "jhon doe",
@@ -115,17 +84,17 @@ const tours = [
       },
     ],
     avgRating: 4.5,
-    photo: tourImg06,
-    featured: false,
+    "maxGroupSize": 8,
+    "desc": "this is the description",
+    "photo": "https://plus.unsplash.com/premium_photo-1689635690273-849284a10734?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
+    "featured": true
   },
   {
-    id: "07",
-    title: "Holmen Lofoten",
-    city: "France",
-    distance: 500,
-    price: 99,
-    maxGroupSize: 8,
-    desc: "this is the description",
+    "title": "Venice, Italy",
+    "city": "Venice City",
+    "address": "Somewhere in Italy",
+    "distance": 500,
+    "price": 99,
     reviews: [
       {
         name: "jhon doe",
@@ -133,17 +102,17 @@ const tours = [
       },
     ],
     avgRating: 4.5,
-    photo: tourImg07,
-    featured: false,
+    "maxGroupSize": 8,
+    "desc": "this is the description",
+    "photo": "https://plus.unsplash.com/premium_photo-1676120651951-c84af43eaf9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
+    "featured": true
   },
   {
-    id: "08",
-    title: "Snowy Mountains, Thailand",
-    city: "Thailand",
-    distance: 500,
-    price: 99,
-    maxGroupSize: 8,
-    desc: "this is the description",
+    "title": "Bora Bora, French Polynesia",
+    "city": "French Polynesia",
+    "address": "Somewhere in France",
+    "distance": 500,
+    "price": 99,
     reviews: [
       {
         name: "jhon doe",
@@ -151,8 +120,28 @@ const tours = [
       },
     ],
     avgRating: 4.5,
-    photo: tourImg03,
-    featured: false,
+    "maxGroupSize": 8,
+    "desc": "this is the description",
+    "photo": "https://images.unsplash.com/photo-1500930287596-c1ecaa373bb2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+    "featured": true
+  },
+  {
+    "title": "Kyoto, Japan",
+    "city": "Kansai region of Japan",
+    "address": "Somewhere in Japan",
+    "distance": 500,
+    "price": 99,
+    reviews: [
+      {
+        name: "jhon doe",
+        rating: 4.6,
+      },
+    ],
+    avgRating: 4.5,
+    "maxGroupSize": 8,
+    "desc": "this is the description",
+    "photo": "https://images.unsplash.com/photo-1580639613257-5b1a20fe3760?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1980&q=80",
+    "featured": true
   },
 ];
 

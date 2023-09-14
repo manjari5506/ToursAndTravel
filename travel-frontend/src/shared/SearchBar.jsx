@@ -4,6 +4,7 @@ import { Col, Form, FormGroup } from "reactstrap";
 
 import { BASE_URL } from "../utils/config";
 import { useNavigate } from "react-router-dom";
+import { TEXT } from "../utils/text";
 
 export const SearchBar = () => {
   const locationRef = useRef("");
@@ -41,7 +42,7 @@ export const SearchBar = () => {
               <i class="ri-map-pin-line"></i>
             </span>
             <div>
-              <h6>Location</h6>
+              <h6>{TEXT.LOCATION}</h6>
               <input
                 type="text"
                 placeholder="Where are you going?"
@@ -54,7 +55,7 @@ export const SearchBar = () => {
               <i class="ri-map-pin-time-line"></i>
             </span>
             <div>
-              <h6>Distance</h6>
+              <h6>{TEXT.DISTANCE}</h6>
               <input
                 type="number"
                 placeholder="Distance k/m"
@@ -67,7 +68,7 @@ export const SearchBar = () => {
               <i class="ri-group-line"></i>
             </span>
             <div>
-              <h6>Max People</h6>
+              <h6>{TEXT.MAX_PEOPLE}</h6>
               <input type="number" placeholder="0" ref={maxGroupSizeRef} />
             </div>
           </FormGroup>

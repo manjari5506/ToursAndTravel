@@ -2,6 +2,7 @@ import React from "react";
 import "./newsletter.css";
 import { Container, Row, Col } from "reactstrap";
 import maleTourist from "../assets/images/male-tourist.png";
+import { TEXT } from "../utils/text";
 
 export const Newsletter = () => {
   return (
@@ -9,18 +10,15 @@ export const Newsletter = () => {
       <Row>
         <Col lg="6">
           <div className="newsletter__content">
-            <h2>Subscribe now to get useful traveling information.</h2>
+            <h2>{TEXT.SUBSCRIBE_DETAILS}</h2>
 
             <div className="newsletter__input">
               <input type="email" placeholder="Enter your email" />
-              <button className="btn newsletter__btn">Subscribe</button>
+              <button className="btn newsletter__btn">{TEXT.SUBSCRIBE}</button>
             </div>
 
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Explicabo quo ut repellat illum ab sed ducimus quos sequi optio, a
-              dicta in praesentium doloribus non, voluptatum pariatur. Delectus,
-              voluptates itaque!
+             {TEXT.TRAVELING_PARA}
             </p>
           </div>
         </Col>
