@@ -50,22 +50,22 @@ export const Footer = () => {
 
               <div className="social__links d-flex align-items-center gap-4">
                 <span>
-                  <Link target="_blank" to="https://www.linkedin.com/in/rajat-sahu-102791147/">
+                  <Link target="_blank" to="https://www.linkedin.com/in/manjari-raikwar-07a254230/">
                     <i class="ri-linkedin-fill"></i>
                   </Link>
                 </span>
                 <span>
-                  <Link target="_blank" to="https://github.com/rajatsahu18">
+                  <Link target="_blank" to="https://github.com/manjari5506">
                     <i class="ri-github-fill"></i>
                   </Link>
                 </span>
                 <span>
-                  <Link target="_blank" to="https://twitter.com/im_rajat18">
+                  <Link target="_blank" to="https://twitter.com">
                     <i class="ri-twitter-fill"></i>
                   </Link>
                 </span>
                 <span>
-                  <Link target="_blank" to="https://medium.com/@sahurajat78">
+                  <Link target="_blank" to="https://medium.com/@raikwar.manjari">
                     <i class="ri-medium-fill"></i>
                   </Link>
                 </span>
