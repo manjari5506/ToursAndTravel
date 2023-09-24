@@ -31,7 +31,7 @@ export const Booking = ({ tour, avgRating }) => {
         return alert("Please sign in");
       }
 
-      const res = await fetch(`${BASE_URL}booking`, {
+      const res = await fetch(`${BASE_URL}booking/`, {
         method: "post",
         headers: {
           "content-type": "application/json",
@@ -41,8 +41,8 @@ export const Booking = ({ tour, avgRating }) => {
       });
 
       const result = await res.json();
-      if (!res.ok) {
-        return alert(result.message);
+      if (res.ok) {
+        return alert("Booking successful");
       }
       navigate("/thank-you");
     } catch (err) {
