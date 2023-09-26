@@ -1,34 +1,35 @@
 # ToursAndTravel
-Welcome to the Travel App! This repository contains the source code and documentation for our travel application. The Travel App is a web-based application built using modern web technologies and frameworks. It aims to simplify the travel planning process and enhance the overall travel experience for users. Whether you are a solo traveler, a group of friends, or a family, our app has something to offer for everyone.
+Welcome to the Travel App! This repository contains the source code and documentation for our travel application.
+The Travel App is a web-based application built using modern web technologies and frameworks. It aims to simplify the travel planning process and enhance the overall travel experience for users.
+Whether you are a solo traveler, a group of friends, or a family, our app has something to offer for everyone.
 
-##Tech Stack
-##My Skills
+## Tech Stack
+[![My Skills](https://skillicons.dev/icons?i=react,js,html,css,mongodb,nodejs,express,bootstrap,vercel,render)](https://skillicons.dev)
 
-##Features
-User-Friendly Interface: Our intuitive interface ensures that even first-time users can easily navigate the website.
+## Features
+* User-Friendly Interface: Our intuitive interface ensures that even first-time users can easily navigate the website.
+* Detailed Descriptions and Reviews: Get comprehensive information about accommodations and activities, including photos, amenities, and user reviews, helping you make informed choices.
+* Flexible Booking Options: Choose from various booking options, including flexible dates, refundable rates, and cancellation policies to accommodate your changing plans.
+* User Registration and Authentication: Users can create accounts, log in, and maintain their profiles securely.
+* Travel Recommendations: Get personalized travel recommendations based on your preferences and previous trips.
 
-Detailed Descriptions and Reviews: Get comprehensive information about accommodations and activities, including photos, amenities, and user reviews, helping you make informed choices.
+  ## Links
+  Backend Url:https://tourandtravel-backend.onrender.com/api/v1/
+  
+  Frontend Url: https://tours-and-travel-pink.vercel.app/
 
-Flexible Booking Options: Choose from various booking options, including flexible dates, refundable rates, and cancellation policies to accommodate your changing plans.
-
-User Registration and Authentication: Users can create accounts, log in, and maintain their profiles securely.
-
-Travel Recommendations: Get personalized travel recommendations based on your preferences and previous trips.
-
-Links
-Backend Url:https://tourandtravel-backend.onrender.com/api/v1/
-
-Frontend Url: https://tours-and-travel-pink.vercel.app/
-
-Usage
+ ## Usage
 Once the Travel App is up and running, you can create an account, log in, and start planning your trips. Refer to the application's user guide or documentation for detailed instructions on how to use each feature.
 
-Snapshots
-travel_homepage
+  ## Snapshots
 
-travel_tour
+![travel_homepage](https://github.com/Ayushi0516/travel-app/assets/101566272/c6ab8c95-1fcc-4a0d-af08-837b8cdbf5f2)
 
-Let's Connect
-Thank you for using the Travel App! If you have any questions, encounter issues, or want to provide feedback, please don't hesitate to contact me. Happy travels!
 
-My Skills My Skills My Skills
+![travel_tour](https://github.com/Ayushi0516/travel-app/assets/101566272/a18d7dee-51c2-44a7-b07a-44911f4e3f79)
+
+ ## Let's Connect
+  Thank you for using the Travel App! If you have any questions, encounter issues, or want to provide feedback, please don't hesitate to contact me. Happy travels!
+  
+  [![My Skills](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/manjari-raikwar-07a254230/)
+[![My Skills](https://skillicons.dev/icons?i=github)](https://github.com/manjari5506)  
